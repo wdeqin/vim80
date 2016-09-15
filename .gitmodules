@@ -25,3 +25,6 @@
 [submodule "vim80/bundle/vim-powerline"]
 	path = vim80/bundle/vim-powerline
 	url = https://github.com/Lokaltog/vim-powerline
+[submodule "vim80/bundle/taglist.vim"]
+	path = vim80/bundle/taglist.vim
+	url = https://github.com/vim-scripts/taglist.vim

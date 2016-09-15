@@ -1,5 +1,5 @@
 if !has('gui_running')
-    let g:pathogen_disabled = [ "ultisnips", "vim-powerline" ]
+    let g:pathogen_disabled = [ "vim-powerline", "ultisnips" ]
 else
     " let g:pathogen_disabled = [ "ultisnips" ]
 endif
@@ -13,7 +13,7 @@ if has('gui_running')
     set cursorline
     " highlight current column
     set cursorcolumn
-    " change working directory
+    set lines=50 columns=164
 else
     "colorscheme slate
     set background=dark
@@ -23,7 +23,6 @@ endif
 filetype plugin indent on
 syntax on
 
-set lines=50 columns=164
 
 " show status bar
 set laststatus=2
@@ -42,13 +41,13 @@ set nowrap
 " set t_Co=256
 
 
-"set nocompatible
-set number!
+set nocompatible
+set number
 set backspace=indent,eol,start
 set shiftwidth=4
-set autoindent!
+set autoindent
 set tabstop=4
-set expandtab!
+set expandtab
 set colorcolumn=80
 " reload file when changing
 set autoread
