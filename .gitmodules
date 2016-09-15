@@ -1,0 +1,27 @@
+[submodule "vim80/bundle/nerdtree"]
+	path = vim80/bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+[submodule "vim80/bundle/minibufexpl.vim"]
+	path = vim80/bundle/minibufexpl.vim
+	url = https://github.com/fholgado/minibufexpl.vim
+[submodule "vim80/bundle/syntastic"]
+	path = vim80/bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.gi
+[submodule "vim80/bundle/supertab"]
+	path = vim80/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "vim80/bundle/nerdcommenter"]
+	path = vim80/bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git
+[submodule "vim80/bundle/ultisnips"]
+	path = vim80/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "vim80/bundle/vim-colors-solarized"]
+	path = vim80/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "vim80/bundle/vim-go"]
+	path = vim80/bundle/vim-go
+	url = git://github.com/fatih/vim-go.git
+[submodule "vim80/bundle/vim-powerline"]
+	path = vim80/bundle/vim-powerline
+	url = git://github.com/Lokaltog/vim-powerline
