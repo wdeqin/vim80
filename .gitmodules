@@ -6,7 +6,7 @@
 	url = https://github.com/fholgado/minibufexpl.vim
 [submodule "vim80/bundle/syntastic"]
 	path = vim80/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.gi
+	url = https://github.com/scrooloose/syntastic.git
 [submodule "vim80/bundle/supertab"]
 	path = vim80/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
