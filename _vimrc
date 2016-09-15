@@ -1,7 +1,7 @@
 if !has('gui_running')
     let g:pathogen_disabled = [ "vim-powerline", "ultisnips" ]
 else
-    " let g:pathogen_disabled = [ "ultisnips" ]
+    let g:pathogen_disabled = [ "minibufexpl.vim" ]
 endif
 execute pathogen#infect()
 
@@ -41,6 +41,7 @@ set nowrap
 " set t_Co=256
 
 
+set fileformat=unix
 set nocompatible
 set number
 set backspace=indent,eol,start
@@ -118,6 +119,7 @@ nmap <leader>fl :NERDTreeToggle<CR>
 function! CdWS()
     if !empty($WS)
         cd $WS
+        NERDTree $WS
     endif
 endfunction
 
@@ -132,12 +134,17 @@ nmap <leader>ws :call CdWS()<CR>
 
 " plugin UltiSnips
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsSnippetDirectories=["UltiSnips"]
+let g:UltiSnipsSnippetsDir="$VIM/vimfiles/UltiSnips"
 let g:UltiSnipsExpandTrigger="<c-k>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 " let g:UltiSnipsEditSplit="vertical"
+
+" minibufexpl
+nmap <leader>mb :MBEToggle<CR>
 
 " encoding
 set fileencodings=utf-8,gb2312,gb18030,gbk
