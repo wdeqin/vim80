@@ -8,12 +8,12 @@ execute pathogen#infect()
 if has('gui_running')
     set background=dark
     colorscheme solarized
-    set guifont=YaHei_Consolas_Hybrid:h10
+    set guifont=YaHei_Consolas_Hybrid:h12
     " highlight current line
     set cursorline
     " highlight current column
     set cursorcolumn
-    set lines=50 columns=164
+    set lines=37 columns=124
 else
     "colorscheme slate
     set background=dark
@@ -131,6 +131,7 @@ endfunction
 nmap <leader>st :call SetTag()<CR>
 nmap <leader>gt :silent !ctags -R<CR>
 nmap <leader>ws :call CdWS()<CR>
+nmap <leader>buf :buffers<CR>
 
 " plugin UltiSnips
 " Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
