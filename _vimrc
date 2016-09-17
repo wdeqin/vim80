@@ -1,8 +1,9 @@
+let g:pathogen_disabled = [ "minibufexpl.vim", "YouCompleteMe" ]
+
 if !has('gui_running')
     let g:pathogen_disabled = [ "vim-powerline", "ultisnips" ]
-else
-    let g:pathogen_disabled = [ "minibufexpl.vim" ]
 endif
+
 execute pathogen#infect()
 
 if has('gui_running')
