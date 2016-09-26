@@ -31,3 +31,9 @@
 [submodule "vim80/bundle/vim-snippets"]
 	path = vim80/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "vim80/bundle/YouCompleteMe"]
+	path = vim80/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "vim80/bundle/tern_for_vim"]
+	path = vim80/bundle/tern_for_vim
+	url = https://github.com/ternjs/tern_for_vim.git
