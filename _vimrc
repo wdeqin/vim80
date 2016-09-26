@@ -1,4 +1,4 @@
-let g:pathogen_disabled = [ "minibufexpl.vim", "YouCompleteMe" ]
+let g:pathogen_disabled = [ "minibufexpl.vim" ]
 
 if !has('gui_running')
     let g:pathogen_disabled = [ "vim-powerline", "ultisnips" ]
